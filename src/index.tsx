@@ -4,7 +4,7 @@ import React, { createContext, ReactNode, useContext, useReducer } from 'react'
 export type InputValueTypes = string | number | boolean
 
 type changedInputValueType = {
-    dataRef: string // dataRef will be a string that points to the path in the store object i.e. employer.0.employer_name
+    dataRef: string // dataRef will be a string that points to the path in the store object i.e. employer.0.employer_name or employer_name
     value?: InputValueTypes
     valid?: boolean
     shown?: boolean
