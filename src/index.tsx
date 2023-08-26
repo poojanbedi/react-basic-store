@@ -41,7 +41,7 @@ const UseReactBasicStoreProvider = ({ children }: { children: ReactNode }) => {
     return <ReactBasicStore.Provider value={{ state, dispatch }}>{children}</ReactBasicStore.Provider>
 }
 
-const useReactBasicStore = () => {
+const useReactBasicStoreContext = () => {
     return useContext(ReactBasicStore)
 }
 
@@ -55,4 +55,4 @@ const ReactBasicStoreConsumer = ({ children }: { children: ReactNode }) => {
 )
 }
 
-export { UseReactBasicStoreProvider, useReactBasicStore, ReactBasicStoreConsumer }
+export { UseReactBasicStoreProvider, useReactBasicStoreContext, ReactBasicStoreConsumer }
