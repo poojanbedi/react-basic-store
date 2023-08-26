@@ -1,0 +1,33 @@
+{
+  "name": "react-basic-store",
+  "version": "1.0.0",
+  "description": "React basic store",
+  "main": "index.js",
+  "scripts": {
+    "cleanInstall": "rm -rf node-modules package-lock.json && npm i",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poojanbedi/react-basic-store.git"
+  },
+  "keywords": [
+    "react",
+    "store",
+    "redux-basic-alternate"
+  ],
+  "author": "poojan.bedi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poojanbedi/react-basic-store/issues"
+  },
+  "homepage": "https://github.com/poojanbedi/react-basic-store#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.197",
+    "@types/react": "^18.2.21"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0"
+  }
+}
